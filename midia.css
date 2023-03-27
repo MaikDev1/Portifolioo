@@ -188,4 +188,12 @@
     margin-top: 1rem;
     gap: 0.5rem;
   }
+
+  .form-contato , textarea {
+    width: 300px;
+  }
+
+  textarea{
+    height: 10rem;
+  }
 }

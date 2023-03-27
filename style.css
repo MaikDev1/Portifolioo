@@ -1,12 +1,12 @@
-@media only screen and (min-width: 768px) and (max-width: 2000px) 
- {
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
   body {
     color: white;
-    background-color: #212121;
+    background-color: #000000;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
   }
 
   .geral {
@@ -37,6 +37,10 @@
   a {
     text-decoration: none;
     color: white;
+  }
+
+  #backgroud-menu {
+    background: #1c1c1c;
   }
 
   .menu {
@@ -73,8 +77,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-top: 10rem;
     padding: 2rem;
+    margin: 0px;
   }
 
   .container2 {
@@ -161,10 +165,29 @@
     width: 500px;
   }
 
+  #backgroud-sobre {
+    background-color: #000000;
+    padding: 20px;
+  }
+
   .sobre {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    grid-template-columns: 400px 0.6fr;
+    gap: 4rem;
+    margin: 40px 0px 40px 0px;
+  }
+
+  .img-sobre {
+    text-align: end;
+  }
+
+  .texto-sobre {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  #backgroud {
+    background-color: #1c1c1c;
   }
 
   .habilidades {
@@ -173,6 +196,7 @@
     display: inline-grid;
     grid-template-columns: auto auto auto;
     padding: 30px;
+    background-color: #2ecc7079;
   }
 
   .habilidades img {
@@ -187,29 +211,84 @@
     font-weight: bolder;
   }
 
+  #backgroud-projetos {
+    background-color: #000000;
+  }
+
   .projetos {
     display: flex;
+    margin: 40px 0px 40px 0px;
+    gap: 2rem;
+    padding: 20px;
+    margin: 0;
+  }
+
+  #backgroud-formacao {
+    background-color: #1c1c1c;
+  }
+
+  #backgroud-experiencia {
+    background-color: #000000;
   }
 
   .formacao {
     display: flex;
     gap: 2rem;
     align-items: center;
+    margin: 0;
   }
 
   .mk3 {
     border: solid 1px #2ecc71;
   }
 
+  #backgroud-contato {
+    background-color: #000000;
+  }
+
   .contato {
+    display: inline-grid;
     align-items: center;
     text-align: center;
-    display: inline-grid;
+    gap: 0.6rem;
+    margin-top: 2rem;
   }
 
   .all-icone {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+  }
+
+  .formacao {
+    display: grid;
+    gap: 1rem;
+    padding: 0px 62px 50px 122px;
+  }
+
+  .info-formacao {
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    background-color: #2ecc708e;
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: solid 2px #2ecc71;
+    border-top: solid 2px #2ecc71;
+  }
+
+  .form-contato,
+  textarea {
+    width: 400px;
+  }
+
+  textarea {
+    height: 20rem;
+  }
+
+  label {
+    font-size: 20px;
+    font-weight: bolder;
   }
 }
